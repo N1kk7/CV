@@ -55,10 +55,10 @@ export default function AboutMe() {
                             <div className="arrow" 
                                                 onClick={() => {setActiveEdu(!activeEdu);}}
                                                 style={{transform: `${style}`}}>
-                                <img src="/downArr.png" alt="" />
+                                <img src="downArr.png" alt="" />
                             </div>
                             {/* {activeEdu && <div className="arrow-up" onClick={() => {setActiveEdu(!activeEdu);}}>
-                                <img src="/downArr.png" alt="" />
+                                <img src="downArr.png" alt="" />
                             </div>} */}
                             <div className="itemTittle">
                                 <span>Education</span>
@@ -99,13 +99,13 @@ export default function AboutMe() {
                             <div className="arrow" 
                                 onClick={() => {setActiveDoc(!activeDoc); }}
                                 style={{transform: `${style}`}}>
-                                <img src="/downArr.png" alt="" />
+                                <img src="downArr.png" alt="" />
                             </div>
                             <div className="itemTittle">
                                 <span>Certificates</span>
                             </div>
                             {activeDoc && <div className="item">
-                                <img src="/certificate.png" alt="" />
+                                <img src="certificate.png" alt="" />
                             </div>}
 
 
