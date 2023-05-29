@@ -13,7 +13,7 @@ export default function Greeting() {
                         
                     </div>
                     <div className="photo">
-                        <img src="/myself.png" alt="" />
+                        <img src="myself.png" alt="" />
                     </div>
                 </div>
             </div>
