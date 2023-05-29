@@ -1,0 +1,188 @@
+@media only screen and (max-width: 1024px)  {
+    .greeting .wrapper .block {
+        padding: 7cqb 7cqb 0;
+    }
+    .Skills .block {
+        padding: 3cqb 4cqb;
+    }
+}
+@media only screen and (max-width: 768px)  {
+    .photo img{
+        width: 20cqw;
+    }
+    .greeting .wrapper .block {
+        padding: 7cqb 2cqb 0;
+    }
+    .AboutMe, 
+    .Skills, 
+    .SoftSkills, 
+    .contacts{
+        padding-top: 14cqh;
+    }
+    .Skills .block {
+        padding: 3cqb 5cqb;
+    }
+
+    .SoftSkills .softSkillsWrapper .blockImg img {
+        width: 35cqw;
+    }
+    .SoftSkills .softSkillsWrapper .softSk .blockTree {
+        width: 46cqw;
+        z-index: 5;
+        top: 12cqi;
+        left: 4cqw;
+    }
+
+.Skills .skillsWrapper .techCard {
+
+    height: 11cqw;
+}
+.SoftSkills .softSkillsWrapper {
+    display: flex;
+    margin-top: 2cqi;
+    flex-direction: column;
+    text-align: center;
+}
+.SoftSkills .softSkillsWrapper .hobbies .hobbies-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2cqi;
+    max-width: 36cqw;
+    margin: 0 auto;
+}
+.SoftSkills .softSkillsWrapper .hobbies .hobbies-wrapper .hobbieCard img {
+    max-width: 12cqw;
+    padding: 1.5cqb;
+}
+.hobbies{
+    padding-top: 6cqw;
+}
+}
+@media only screen and (max-width: 425px)  {
+    .header-list{
+        display: none;
+    }
+    .header-list-mobile{
+        display: block !important;
+    }
+    .greeting .wrapper .block {
+        padding: 2cqb 2cqb 0;
+        height: fit-content;
+    }
+    .greeting .wrapper .block .block-item {
+        top: 2cqh;
+    }
+    .greeting .wrapper .block .block-item h1 {
+        line-height: 4cqh;
+        font-size: 5cqw;
+    }
+    .tittle h1 {
+        font-size: 5cqw;
+    }
+    .block{
+        height: fit-content;
+    }
+    .AboutMe .block .textBlock p {
+        font-size: 5cqw;
+        line-height: 6cqw;
+    }
+    .AboutMe, .Skills, .SoftSkills, .contacts {
+        padding-top: 8cqh;
+    }
+    .AboutMe .block .accordeon .accordeonItem .itemTittle {
+        font-size: 5cqw;
+        height: 2.5cqh;
+    }
+    .AboutMe .block .accordeon .accordeonItem .item .eduItem .eduTittle, .AboutMe .block .accordeon .accordeonItem .item .eduItem .eduTime, .AboutMe .block .accordeon .accordeonItem .item .eduItem .eduLocal {
+        font-size: 4cqw;
+        line-height: 6cqw;
+    }
+    .AboutMe .block .accordeon .accordeonItem .item img {
+        max-width: 60cqw;
+    }
+    .Skills .skillsWrapper .techCard {
+        margin: 1cqw;
+    }
+    .Skills .skillsWrapper .techCard img {
+        max-width: unset;
+        width: 12cqw;
+    }
+    .Skills .skillsWrapper .techCard span {
+        font-size: 3cqw;
+        margin: 0 5px;
+    }
+    .header .header-content .logo img {
+        width: 35cqw;
+    }
+    .logo{
+        position: relative;
+        right: 10cqw;
+    }
+    .wrapper {
+        width: 78cqw;
+    }
+    .AboutMe .block {
+        padding: 3cqb;
+    }
+    .Skills .block {
+        padding: 3cqb 3cqb;
+    }
+    .Skills .skillsWrapper .techCard {
+        width: 18cqw;
+        height: 12cqh;
+    }
+    .Skills .skillsWrapper .techCard img {
+        max-width: 8.5cqw;
+    }
+    .SoftSkills .softSkillsWrapper .blockImg img {
+        width: 63cqw;
+    }
+    .SoftSkills .softSkillsWrapper .blockTittle {
+        font-size: 3.5cqw;
+    }
+    .SoftSkills .softSkillsWrapper .softSk .blockTree {
+        position: absolute;
+        width: 24cqw;
+        z-index: 5;
+        top: 8cqi;
+        text-align: center;
+        font-family: "Cormorant Infant";
+        font-size: 5.5cqw;
+        color: antiquewhite;
+    }
+    .SoftSkills .softSkillsWrapper .softSk .blockTree {
+        position: absolute;
+        width: 67cqw;
+        z-index: 5;
+        top: 15cqi;
+        text-align: center;
+        font-family: "Cormorant Infant";
+        font-size: 5.5cqw;
+        color: antiquewhite;
+    }
+    .SoftSkills .softSkillsWrapper .softSk .blockTree .teamwork {
+        top: -1cqh;
+    }
+    .SoftSkills .softSkillsWrapper .softSk .blockTree .leadership {
+        top: 12cqh;
+    }
+    .hobbies {
+        padding-top: 17cqw;
+    }
+    .SoftSkills .softSkillsWrapper .hobbies .hobbies-wrapper {
+        max-width: 60cqw;
+        margin: 0 auto;
+        padding-top: 3cqh;
+    }
+    .SoftSkills .softSkillsWrapper .hobbies .hobbies-wrapper .hobbieCard img {
+        max-width: 20cqw;
+        padding: 1cqb;
+    }
+    .contacts .footer .soc-network .f-logo img {
+        max-width: 10cqw;
+    }
+    .contacts .footer .soc-network .link span {
+        font-size: 4cqw;
+        top: 1cqh;
+    }
+}
