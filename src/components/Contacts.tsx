@@ -13,7 +13,7 @@ export default function Contacts() {
                 <div className="soc-network">
                     <a href="https://instagram.com/nickseventh?igshid=OGQ5ZDc2ODk2ZA==">
                         <div className="f-logo">
-                            <img src="build/instagram.png" alt="" />
+                            <img src="instagram.png" alt="" />
                         </div>
                         <div className="link">
                             <span>INST</span>
@@ -23,7 +23,7 @@ export default function Contacts() {
                 <div className="soc-network">
                     <a href="https://github.com/N1kk7">
                         <div className="f-logo">
-                            <img src="build/git.png" alt="" />
+                            <img src="git.png" alt="" />
                         </div>
                         <div className="link">
                             <span>GIT</span>
@@ -33,7 +33,7 @@ export default function Contacts() {
                 <div className="soc-network">
                     <a href="https://www.facebook.com/profile.php?id=100081593139747">
                         <div className="f-logo">
-                            <img src="build/facebook.png" alt="" />
+                            <img src="facebook.png" alt="" />
                         </div>
                         <div className="link">
                             <span>FB</span>
@@ -42,7 +42,7 @@ export default function Contacts() {
                 </div>
                 <div className="soc-network">
                         <div className="f-logo">
-                            <img src="build/gmail.png" alt="" />
+                            <img src="gmail.png" alt="" />
                         </div>
                         <div className="link">
                             <span>vvild.electronics@gmail.com</span>

@@ -58,10 +58,10 @@ export default function AboutMe() {
                             <div className="arrow" 
                                                 onClick={() => {setActiveEdu(!activeEdu);}}
                                                 style={{transform: `${style}`}}>
-                                <img src="build/downArr.png" alt="" />
+                                <img src="downArr.png" alt="" />
                             </div>
                             {/* {activeEdu && <div className="arrow-up" onClick={() => {setActiveEdu(!activeEdu);}}>
-                                <img src="build/downArr.png" alt="" />
+                                <img src="downArr.png" alt="" />
                             </div>} */}
                             <div className="itemTittle">
                                 <span>Education</span>
@@ -102,13 +102,13 @@ export default function AboutMe() {
                             <div className="arrow" 
                                 onClick={() => {setActiveDoc(!activeDoc); }}
                                 style={{transform: `${style}`}}>
-                                <img src="build/downArr.png" alt="" />
+                                <img src="downArr.png" alt="" />
                             </div>
                             <div className="itemTittle">
                                 <span>Certificates</span>
                             </div>
                             {activeDoc && <div className="item">
-                                <img src="build/certificate.png" alt="" />
+                                <img src="certificate.png" alt="" />
                             </div>}
 
 
@@ -117,7 +117,7 @@ export default function AboutMe() {
                             <div className="arrow" 
                                 onClick={() => {setActiveLang(!activeLang); }}
                                 style={{transform: `${style}`}}>
-                                <img src="build/downArr.png" alt="" />
+                                <img src="downArr.png" alt="" />
                             </div>
                             <div className="itemTittle">
                                 <span>Languages</span>
@@ -125,7 +125,7 @@ export default function AboutMe() {
                             {activeLang && <div className="item">
                                 <div className="lang">
                                     <div className="langLogo">
-                                        <img src="build/ukr.png" alt="" />
+                                        <img src="ukr.png" alt="" />
                                     </div>
                                     <div className="langName">
                                         <h3>Ukrainian - Native</h3>
@@ -133,7 +133,7 @@ export default function AboutMe() {
                                 </div>
                                 <div className="lang">
                                     <div className="langLogo">
-                                        <img src="build/rus.png" alt="" />
+                                        <img src="rus.png" alt="" />
                                     </div>
                                     <div className="langName">
                                         <h3>Russian - Native</h3>
@@ -141,7 +141,7 @@ export default function AboutMe() {
                                 </div>
                                 <div className="lang">
                                     <div className="langLogo">
-                                        <img src="build/eng.png" alt="" />
+                                        <img src="eng.png" alt="" />
                                     </div>
                                     <div className="langName">
                                         <h3>English - B1</h3>
