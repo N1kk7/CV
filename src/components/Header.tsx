@@ -31,7 +31,7 @@ const activeBurger = () => {
             <div className="container">
                 <div className="header-content">
                     <div className="logo">
-                        <img src="logo.png" alt="" />
+                        <img src="build/logo.png" alt="" />
                     </div>
                     <div className="header-list">
                         <ul>

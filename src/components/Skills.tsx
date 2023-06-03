@@ -14,7 +14,7 @@ export default function Skills() {
                 <div className="skillsWrapper">
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="React.svg.png" alt="" />
+                            <img src="build/React.svg.png" alt="" />
                         </div>
                         <div className="cardDescription">
                             <span>React JS</span>
@@ -22,7 +22,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="vue.png" alt="" />
+                            <img src="build/vue.png" alt="" />
                         </div>
                         <div className="cardDescription">
                             <span>VUE 3</span>
@@ -30,7 +30,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="jquery.png" alt="" style={{width: "4cqw"}}/>    
+                            <img src="build/jquery.png" alt="" style={{width: "4cqw"}}/>    
                         </div>
                         <div className="cardDescription">
                             <span>jQuery</span>
@@ -38,7 +38,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="js.svg.png" alt="" />    
+                            <img src="build/js.svg.png" alt="" />    
                         </div>
                         <div className="cardDescription">
                             <span>JavaScript</span>
@@ -46,7 +46,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="Typescript.svg.png" alt="" />    
+                            <img src="build/Typescript.svg.png" alt="" />    
                         </div>
                         <div className="cardDescription">
                             <span>TypeScript</span>
@@ -54,7 +54,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="redux.svg" alt="" /> 
+                            <img src="build/redux.svg" alt="" /> 
                         </div>
                         <div className="cardDescription">
                             <span>Redux</span>
@@ -62,7 +62,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard" style={{paddingTop: "1cqh "}}>
                         <div className="cardImg">
-                            <img src="restApi.png" alt="" style={{width: "7cqw "}}/>   
+                            <img src="build/restApi.png" alt="" style={{width: "7cqw "}}/>   
                         </div>
                         <div className="cardDescription">
                             <span>RestApi</span>
@@ -70,7 +70,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard" style={{paddingTop: "2.5cqh "}}>
                         <div className="cardImg">
-                            <img src="Node.svg.png" alt="" />  
+                            <img src="build/Node.svg.png" alt="" />  
                         </div>
                         <div className="cardDescription">
                             <span>Node JS</span>
@@ -78,7 +78,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="c.png" alt="" /> 
+                            <img src="build/c.png" alt="" /> 
                         </div>
                         <div className="cardDescription">
                             <span>C ++</span>
@@ -86,7 +86,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="arduino.png" alt="" />
+                            <img src="build/arduino.png" alt="" />
                         </div>
                         <div className="cardDescription">
                             <span>ARDUINO</span>
@@ -95,7 +95,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="css.png" alt="" style={{width: "4cqw"}}/>
+                            <img src="build/css.png" alt="" style={{width: "4cqw"}}/>
                         </div>
                         <div className="cardDescription">
                             <span>CSS 3</span>
@@ -103,7 +103,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="html.png" alt="" />
+                            <img src="build/html.png" alt="" />
                         </div>
                         <div className="cardDescription">
                             <span>HTML</span>
@@ -111,7 +111,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="Figma.svg" alt="" style={{width: "3cqw"}}/>
+                            <img src="build/Figma.svg" alt="" style={{width: "3cqw"}}/>
                         </div>
                         <div className="cardDescription">
                             <span>Figma</span>
@@ -119,7 +119,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="avocode.png" alt="" style={{width: "4cqw"}}/>
+                            <img src="build/avocode.png" alt="" style={{width: "4cqw"}}/>
                         </div>
                         <div className="cardDescription">
                             <span>Avocode</span>
@@ -127,7 +127,7 @@ export default function Skills() {
                     </div>
                     <div className="techCard">
                         <div className="cardImg">
-                            <img src="github.png" alt="" />
+                            <img src="build/github.png" alt="" />
                         </div>
                         <div className="cardDescription">
                             <span>git</span>

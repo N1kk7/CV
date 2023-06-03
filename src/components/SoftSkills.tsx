@@ -16,7 +16,7 @@ export default function SoftSkills() {
                             <h2>Soft Skills</h2>
                         </div>
                         <div className="blockImg">
-                            <img src="softSkills.png" alt="" />
+                            <img src="build/softSkills.png" alt="" />
                         </div>
                         <div className="blockTree">
                             <div className="comunication">
@@ -48,31 +48,31 @@ export default function SoftSkills() {
                         </div>
                         <div className="hobbies-wrapper">
                             <div className="hobbieCard">
-                                <img src="graduate.png" alt="" />
+                                <img src="build/graduate.png" alt="" />
                             </div>
                             <div className="hobbieCard">
-                                <img src="hiking.png" alt="" />
+                                <img src="build/hiking.png" alt="" />
                             </div>
                             <div className="hobbieCard">
-                                <img src="languages.png" alt="" />
+                                <img src="build/languages.png" alt="" />
                             </div>
                             <div className="hobbieCard">
-                                <img src="electric-guitar.png" alt="" />
+                                <img src="build/electric-guitar.png" alt="" />
                             </div>
                             <div className="hobbieCard">
-                                <img src="motorcycle.png" alt="" />
+                                <img src="build/motorcycle.png" alt="" />
                             </div>
                             <div className="hobbieCard">
-                                <img src="steering-wheel.png" alt="" />
+                                <img src="build/steering-wheel.png" alt="" />
                             </div>
                             <div className="hobbieCard">
-                                <img src="bicycle.png" alt="" />
+                                <img src="build/bicycle.png" alt="" />
                             </div>
                             <div className="hobbieCard">
-                                <img src="listening.png" alt="" />
+                                <img src="build/listening.png" alt="" />
                             </div>
                             <div className="hobbieCard">
-                                <img src="treadmill.png" alt="" />
+                                <img src="build/treadmill.png" alt="" />
                             </div>
                         </div>
 

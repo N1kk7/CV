@@ -89,9 +89,15 @@
     .AboutMe, .Skills, .SoftSkills, .contacts {
         padding-top: 8cqh;
     }
+    .AboutMe .block .accordeon .accordeonItem {
+        padding-top: 5cqh;
+    }
     .AboutMe .block .accordeon .accordeonItem .itemTittle {
         font-size: 5cqw;
-        height: 2.5cqh;
+        height: 4.5cqh;
+    }
+    .AboutMe .block .accordeon .accordeonItem .arrow img {
+        max-width: 7cqw;
     }
     .AboutMe .block .accordeon .accordeonItem .item .eduItem .eduTittle, .AboutMe .block .accordeon .accordeonItem .item .eduItem .eduTime, .AboutMe .block .accordeon .accordeonItem .item .eduItem .eduLocal {
         font-size: 4cqw;
@@ -99,6 +105,9 @@
     }
     .AboutMe .block .accordeon .accordeonItem .item img {
         max-width: 60cqw;
+    }
+    .AboutMe .block .accordeon .accordeonItem .item .lang .langName {
+        font-size: 4cqw;
     }
     .Skills .skillsWrapper .techCard {
         margin: 1cqw;
@@ -154,7 +163,7 @@
         position: absolute;
         width: 67cqw;
         z-index: 5;
-        top: 15cqi;
+        top: 17cqi;
         text-align: center;
         font-family: "Cormorant Infant";
         font-size: 5.5cqw;
@@ -164,7 +173,7 @@
         top: -1cqh;
     }
     .SoftSkills .softSkillsWrapper .softSk .blockTree .leadership {
-        top: 12cqh;
+        top: 13cqh;
     }
     .hobbies {
         padding-top: 17cqw;
@@ -173,6 +182,9 @@
         max-width: 60cqw;
         margin: 0 auto;
         padding-top: 3cqh;
+    }
+    .SoftSkills .softSkillsWrapper .blockImg {
+        top: 6cqh;
     }
     .SoftSkills .softSkillsWrapper .hobbies .hobbies-wrapper .hobbieCard img {
         max-width: 20cqw;

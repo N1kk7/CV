@@ -231,15 +231,6 @@
                                 max-width: 2.5cqw;
                             }
                     }
-                    // .arrow-up{
-                    //     transform: rotate(180deg);
-                    //     display: inline-block;
-                    //     transition: all ease 1s;
-        
-                    //         img{
-                    //             max-width: 2.5cqw;
-                    //         }
-                    // }
                     .itemTittle{
                         display: inline-block;
                         position: relative;
@@ -272,6 +263,24 @@
                                 line-height: 2.5cqw;
                             }
                         }
+                        .lang{
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            .langLogo{
+                                img{
+                                    width: 15cqw;
+                                }
+                            }
+                            .langName{
+                                font-family: 'Cormorant Infant';
+                                padding-left: 3cqw;
+                                font-size: 2cqw;
+                                color: white;
+                            }
+
+                        }
+                        
                     }
                 }
                 

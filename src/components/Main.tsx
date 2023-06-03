@@ -4,7 +4,7 @@ export default function main() {
   return (
     <div className="main">
         <div className="background">
-            <img src="bg.jpg" alt="" />
+            <img src="build/bg.jpg" alt="" />
         </div>
     </div>
   )

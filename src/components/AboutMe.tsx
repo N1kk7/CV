@@ -4,6 +4,9 @@ export default function AboutMe() {
 
     const [activeEdu, setActiveEdu] = useState(false);
     const [activeDoc, setActiveDoc] = useState(false);
+    const [activeLang, setActiveLang] = useState(false);
+
+    
     const [style, setStyle] = useState("unset");
 
     // const rotateBtnTop = () => {
@@ -55,10 +58,10 @@ export default function AboutMe() {
                             <div className="arrow" 
                                                 onClick={() => {setActiveEdu(!activeEdu);}}
                                                 style={{transform: `${style}`}}>
-                                <img src="downArr.png" alt="" />
+                                <img src="build/downArr.png" alt="" />
                             </div>
                             {/* {activeEdu && <div className="arrow-up" onClick={() => {setActiveEdu(!activeEdu);}}>
-                                <img src="downArr.png" alt="" />
+                                <img src="build/downArr.png" alt="" />
                             </div>} */}
                             <div className="itemTittle">
                                 <span>Education</span>
@@ -99,13 +102,52 @@ export default function AboutMe() {
                             <div className="arrow" 
                                 onClick={() => {setActiveDoc(!activeDoc); }}
                                 style={{transform: `${style}`}}>
-                                <img src="downArr.png" alt="" />
+                                <img src="build/downArr.png" alt="" />
                             </div>
                             <div className="itemTittle">
                                 <span>Certificates</span>
                             </div>
                             {activeDoc && <div className="item">
-                                <img src="certificate.png" alt="" />
+                                <img src="build/certificate.png" alt="" />
+                            </div>}
+
+
+                        </div>
+                        <div className="accordeonItem">
+                            <div className="arrow" 
+                                onClick={() => {setActiveLang(!activeLang); }}
+                                style={{transform: `${style}`}}>
+                                <img src="build/downArr.png" alt="" />
+                            </div>
+                            <div className="itemTittle">
+                                <span>Languages</span>
+                            </div>
+                            {activeLang && <div className="item">
+                                <div className="lang">
+                                    <div className="langLogo">
+                                        <img src="build/ukr.png" alt="" />
+                                    </div>
+                                    <div className="langName">
+                                        <h3>Ukrainian - Native</h3>
+                                    </div>
+                                </div>
+                                <div className="lang">
+                                    <div className="langLogo">
+                                        <img src="build/rus.png" alt="" />
+                                    </div>
+                                    <div className="langName">
+                                        <h3>Russian - Native</h3>
+                                    </div>
+                                </div>
+                                <div className="lang">
+                                    <div className="langLogo">
+                                        <img src="build/eng.png" alt="" />
+                                    </div>
+                                    <div className="langName">
+                                        <h3>English - B1</h3>
+                                    </div>
+                                </div>
+                                
                             </div>}
 
 
