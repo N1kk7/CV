@@ -45,7 +45,7 @@ export default function Contacts() {
                             <img src="gmail.png" alt="" />
                         </div>
                         <div className="link">
-                            <span>vvild.electronics@gmail.com</span>
+                            <span>wild.electronics@gmail.com</span>
                         </div>
                 </div>
         </div>
